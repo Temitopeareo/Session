@@ -54,13 +54,16 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'Astro;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
-*_Pair Code By Maher Zubair_*
-*_Made With 🤍_*
-
-_Don't Forget To Give Star To My Repo_`
+ ᴀsᴛᴀ ᴍᴅ ᴘᴀɪʀɪɴɢ ᴄᴏɴɴᴇᴄᴛᴇᴅ
+ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɴʏ: [Asta;;;|Astro;;;|Astropeda;;;]
+ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ: https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z
+ sᴜᴘᴘᴏʀᴛ ᴄᴏᴍᴍᴜɴɪᴛʏ: https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB
+ sᴜᴘᴘᴏʀᴛ ᴛᴇᴀᴍ: astromedia0010@gmail.com
+ ᴄᴏɴᴛᴀᴄᴛ: 2348039607375
+ `
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
 
