@@ -54,15 +54,15 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'Astro;;;' + b64data });
+               let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'Abro;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
  ABRO MD PAIRING CODE
- ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɴʏ: [Abro;;;|ABROMD;;;|ABRO;;;]
+ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɴʏ: [Abro;;;|Abromd;;;|Abrotech;;;]
  sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ: SOON...
  sᴜᴘᴘᴏʀᴛ ᴄᴏᴍᴍᴜɴɪᴛʏ: SOON...
  sᴜᴘᴘᴏʀᴛ ᴛᴇᴀᴍ: abrahamtemitope247@gmail.com
- ᴄᴏɴᴛᴀᴄᴛ: 2348100151048
+ ᴄᴏɴᴛᴀᴄᴛ: wa.me/2348100151048
  `
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
