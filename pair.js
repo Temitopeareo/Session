@@ -57,12 +57,12 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: 'Astro;;;' + b64data });
 
                let SIGMA_MD_TEXT = `
- ᴀsᴛᴀ ᴍᴅ ᴘᴀɪʀɪɴɢ ᴄᴏɴɴᴇᴄᴛᴇᴅ
- ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɴʏ: [Asta;;;|Astro;;;|Astropeda;;;]
- sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ: https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z
- sᴜᴘᴘᴏʀᴛ ᴄᴏᴍᴍᴜɴɪᴛʏ: https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB
- sᴜᴘᴘᴏʀᴛ ᴛᴇᴀᴍ: astromedia0010@gmail.com
- ᴄᴏɴᴛᴀᴄᴛ: 2348039607375
+ ABRO MD PAIRING CODE
+ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɴʏ: [Abro;;;|ABROMD;;;|ABRO;;;]
+ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ: SOON...
+ sᴜᴘᴘᴏʀᴛ ᴄᴏᴍᴍᴜɴɪᴛʏ: SOON...
+ sᴜᴘᴘᴏʀᴛ ᴛᴇᴀᴍ: abrahamtemitope247@gmail.com
+ ᴄᴏɴᴛᴀᴄᴛ: 2348100151048
  `
  await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
  
